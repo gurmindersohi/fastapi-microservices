@@ -10,7 +10,7 @@ This project demonstrates how to design, structure, and deploy **distributed sys
 
 ---
 
-## 📂 Repository Structure
+### 📂 Repository Structure
 
 ```bash
 fastapi-microservices/
@@ -85,7 +85,7 @@ fastapi-microservices/
 
 ---
 
-## ✨ Features  
+### ✨ Features  
 
 - 🏗 **Microservice architecture** — each service is independent, with its own DB schema, migrations, and deployment pipeline.  
 - 🔑 **Authentication & RBAC** — central `auth-service` with JWT & OAuth2.  
@@ -99,7 +99,7 @@ fastapi-microservices/
 
 ---
 
-## 🛠️ Tech Stack  
+### 🛠️ Tech Stack  
 
 - **Backend Framework**: FastAPI, Pydantic, SQLAlchemy  
 - **Databases**: PostgreSQL (per service schema)  
@@ -112,7 +112,7 @@ fastapi-microservices/
 
 ---
 
-## ⚙️ Getting Started  
+### ⚙️ Getting Started  
 
 ### 1️⃣ Clone repo
 ```bash
@@ -137,7 +137,7 @@ Posts Service → http://localhost:8002/docs
 
 ---
 
-## 🧪 Running Tests
+### 🧪 Running Tests
 
 ### Unit tests (inside a service):
 ```bash
@@ -153,7 +153,7 @@ pytest tests/integration
 
 ---
 
-## 📈 Architecture Diagram
+### 📈 Architecture Diagram
 ```bash
           ┌───────────────┐
           │   API Gateway │
@@ -171,7 +171,7 @@ pytest tests/integration
 
 ---
 
-## 🎯 Why This Repo?
+### 🎯 Why This Repo?
 
 This repo is designed to showcase professional system design skills and serve as a reference architecture for Python + FastAPI microservices.
 
@@ -187,8 +187,6 @@ It highlights:
 
 ---
 
-## 👤 Author
-Gurminder Sohi
-Senior Software Engineer | Full-stack | Cloud & AI Enthusiast
-
+### 👤 Author
+Gurminder Sohi — Senior Software Engineer | Full-stack | Cloud & AI
 🔗 [LinkedIn](https://www.linkedin.com/in/gurmindersohi/)
