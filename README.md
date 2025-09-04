@@ -12,6 +12,7 @@ This project demonstrates how to design, structure, and deploy **distributed sys
 
 ## 📂 Repository Structure
 
+```bash
 fastapi-microservices/
 ├── services/                   # Independent microservices (each deployable independently)
 │   ├── auth-service/           # Authentication & authorization
@@ -80,7 +81,7 @@ fastapi-microservices/
 │   ├── dev.txt
 │   └── prod.txt
 └── README.md
-
+```
 
 ---
 
@@ -107,6 +108,7 @@ fastapi-microservices/
 - **Infra**: Docker, Kubernetes, Terraform  
 - **Observability**: Prometheus, Grafana, Jaeger, Centralized logging  
 - **CI/CD**: GitHub Actions, Azure DevOps  
+
 
 ---
 
@@ -141,6 +143,7 @@ pytest tests/integration
 ---
 
 ## 📈 Architecture Diagram
+```bash
           ┌───────────────┐
           │   API Gateway │
           └───────┬───────┘
@@ -153,6 +156,7 @@ pytest tests/integration
 └────┬─────┘ └────┬─────┘ └────┬─────┘
      │            │            │
      └──────► Shared Libraries ◄──────┘
+```
 
 ---
 
