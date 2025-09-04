@@ -114,31 +114,42 @@ fastapi-microservices/
 
 ## ⚙️ Getting Started  
 
-### 1️⃣ Clone repo  
+### 1️⃣ Clone repo
+```bash
 git clone https://github.com/<your-username>/fastapi-microservices.git
+
 cd fastapi-microservices
+```
 
 ### 2️⃣ Start locally with Docker Compose
+```bash
 docker-compose up --build
+```
 
 ### 3️⃣ Access services
-
+```bash
 API Gateway → http://localhost:8000
 
 Auth Service → http://localhost:8001/docs
 
 Posts Service → http://localhost:8002/docs
+```
 
 ---
 
 ## 🧪 Running Tests
 
 ### Unit tests (inside a service):
+```bash
 cd services/auth-service
+
 pytest
+```
 
 ### Integration tests (cross-service):
+```bash
 pytest tests/integration
+```
 
 ---
 
